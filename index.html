@@ -1,70 +1,253 @@
-<!DOCTYPE html>
-<html lang="de">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="HausKraft Service – Trockenbau, Bodenverlegung, Hausmeisterservice, Reinigung und Gartenpflege in Nürtingen und Umgebung.">
-<title>HausKraft Service | Rund ums Haus</title>
+<!doctype html>
+<html lang="de"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#07182e"><meta name="description" content="HausKraft Service in Nürtingen – Innenausbau, Trockenbau, Bodenverlegung, Hausmeisterservice, Reinigung und Gartenpflege."><title>HausKraft Service | Innenausbau & Gebäudeservice in Nürtingen</title>
+<link rel="preconnect" href="https://images.unsplash.com">
 <style>
-:root{--dark:#13232b;--gold:#c7a56b;--light:#f6f7f6;--text:#26343b}
-*{box-sizing:border-box}html{scroll-behavior:smooth}
-body{margin:0;font-family:Arial,Helvetica,sans-serif;color:var(--text);line-height:1.65;background:white}
-header{background:var(--dark);color:white;padding:18px 7%;display:flex;align-items:center;justify-content:space-between;gap:20px;flex-wrap:wrap}
-.brand{font-size:1.35rem;font-weight:800;letter-spacing:.04em}.brand span{color:var(--gold)}
-nav a{color:white;text-decoration:none;margin-left:20px;font-weight:600}nav a:hover{color:var(--gold)}
-.hero{background:linear-gradient(125deg,#13232b,#304751);color:white;padding:110px 7% 120px}
-.hero .inner{max-width:900px;margin:auto;text-align:center}
-.eyebrow{text-transform:uppercase;letter-spacing:.22em;color:var(--gold);font-size:.8rem;font-weight:700}
-h1{font-size:clamp(2.5rem,6vw,4.7rem);line-height:1.12;margin:20px 0}
-.hero p{font-size:1.2rem;color:#e0e8ea;max-width:650px;margin:0 auto 32px}
-.button{display:inline-block;background:var(--gold);color:#17252c;text-decoration:none;font-weight:700;padding:13px 27px;border-radius:5px}
-section{padding:76px 7%}.wrap{max-width:1100px;margin:auto}
-h2{font-size:clamp(1.9rem,4vw,2.6rem);line-height:1.2;margin:0 0 15px}
-.intro{max-width:680px;color:#58656b;margin-bottom:35px}
-.services{background:var(--light)}
-.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:22px}
-.card{background:white;border:1px solid #e6e9e8;border-radius:9px;padding:27px;box-shadow:0 8px 24px #15242b09}
-.card:before{content:"";display:block;width:36px;height:4px;background:var(--gold);margin-bottom:20px}
-.card h3{margin:0 0 8px;color:var(--dark)}.card p{margin:0;color:#59666b}
-.about{background:white}.contact{background:var(--dark);color:white}.contact p{color:#d5dfe2}
-.contact .button{margin-top:12px}footer{background:#0c171c;color:#c2cbd0;text-align:center;padding:24px 7%;font-size:.9rem}
-@media(max-width:650px){header{justify-content:center;text-align:center}nav a{margin:0 8px;font-size:.9rem}.hero{padding:75px 7%}section{padding:55px 7%}}
+:root{--ink:#10213a;--deep:#08182e;--blue:#0952b8;--blue2:#2378e7;--soft:#f3f6fa;--line:#e4e9f0;--grey:#667489;--white:#fff}*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:Arial,Helvetica,sans-serif;color:var(--ink);line-height:1.55;background:#fff}a{text-decoration:none;color:inherit}button,input,select,textarea{font:inherit}button{cursor:pointer}.container{width:min(1200px,calc(100% - 64px));margin:auto}.topline{background:var(--deep);color:#c4d4e8;font-size:11px;font-weight:700;letter-spacing:.13em}.topline .container{min-height:34px;display:flex;justify-content:space-between;align-items:center}.site-header{position:sticky;top:0;z-index:100;background:#fffffff5;backdrop-filter:blur(18px);border-bottom:1px solid #e5eaf1}.header-inner{display:flex;align-items:center;justify-content:space-between;gap:20px;min-height:95px}.logo{display:flex;align-items:center;flex-shrink:0}.logo img{display:block;width:170px;height:79px;object-fit:contain}.navlinks{display:flex;align-items:center;gap:30px;font-size:13px;font-weight:700}.navlinks a:not(.button):hover{color:var(--blue)}.button{display:inline-flex;align-items:center;justify-content:center;gap:12px;background:var(--blue);border:1px solid var(--blue);color:white;padding:15px 23px;font-size:13px;font-weight:800;letter-spacing:.01em;transition:.2s;white-space:nowrap}.button:hover{background:#003b8a;transform:translateY(-1px)}.button.light{background:white;color:var(--ink);border-color:white}.button.outline{background:transparent;border-color:#aabbd0;color:white}.button.outline:hover{background:#ffffff15}.menu-toggle{display:none;border:1px solid var(--line);background:white;padding:10px 13px;color:var(--ink)}.hero{background:linear-gradient(90deg,rgba(4,17,36,.94) 0%,rgba(4,17,36,.83) 42%,rgba(4,17,36,.27) 100%),url('https://images.unsplash.com/photo-1600566752355-35792bedcfea?auto=format&fit=crop&w=2000&q=85') center/cover;min-height:670px;display:flex;align-items:center;color:white}.hero-inner{padding:90px 0 105px}.eyebrow{display:flex;align-items:center;gap:12px;color:#7eb8ff;text-transform:uppercase;font-size:11px;font-weight:800;letter-spacing:.2em}.eyebrow:before{content:"";display:inline-block;width:28px;height:2px;background:currentColor}.hero h1{font-size:clamp(43px,5.8vw,78px);line-height:1.08;letter-spacing:-.055em;max-width:810px;margin:25px 0 22px}.hero h1 em{font-style:normal;color:#80b7ff}.hero p{max-width:585px;color:#dce6f3;font-size:18px;line-height:1.8}.hero-actions{display:flex;gap:14px;flex-wrap:wrap;margin-top:35px}.hero-bottom{border-top:1px solid #ffffff4d;display:flex;gap:35px;flex-wrap:wrap;margin-top:70px;padding-top:25px;color:#c6d8ed;font-size:12px;font-weight:700}.hero-bottom span:before{content:'✓';color:#6aaaff;margin-right:9px}.trust{background:var(--blue);color:white}.trust .container{display:grid;grid-template-columns:repeat(3,1fr)}.trust-item{padding:25px 30px;border-right:1px solid #ffffff35;display:flex;gap:16px;align-items:center}.trust-item:first-child{padding-left:0}.trust-item:last-child{border-right:0}.trust-item b{display:block;font-size:14px}.trust-item small{display:block;font-size:12px;color:#c5dfff;margin-top:3px}.trust-icon{font-size:25px;font-weight:300}.section{padding:110px 0}.section.soft{background:var(--soft)}.section-heading{display:flex;justify-content:space-between;align-items:end;gap:45px;margin-bottom:42px}.section-heading h2,.section h2{font-size:clamp(34px,4vw,52px);line-height:1.12;letter-spacing:-.045em;margin:15px 0}.section-heading p{max-width:450px;color:var(--grey);font-size:15px}.kicker{font-size:11px;letter-spacing:.2em;text-transform:uppercase;font-weight:800;color:var(--blue)}.services{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}.service{background:#fff;border:1px solid var(--line);transition:.25s;overflow:hidden}.service:hover{box-shadow:0 18px 45px #071d3b20;transform:translateY(-4px)}.service-image{height:235px;position:relative;background-color:#d9e4ef;background-position:center;background-size:cover}.service-image:after{content:"";position:absolute;inset:0;background:linear-gradient(0deg,#071b3545,transparent 60%)}.service-number{position:absolute;bottom:18px;left:23px;color:white;font-size:12px;font-weight:800;z-index:1}.service-body{padding:28px 26px 30px}.service h3{font-size:23px;letter-spacing:-.025em;margin:0 0 11px}.service p{font-size:14px;color:var(--grey);min-height:66px;margin:0 0 20px}.service a{color:var(--blue);font-weight:800;font-size:12px;letter-spacing:.02em}.split{display:grid;grid-template-columns:1fr 1fr;gap:80px;align-items:center}.large-photo{min-height:545px;background:#e5eaf0 url('https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1200&q=85') center/cover;position:relative}.photo-label{position:absolute;bottom:22px;left:22px;background:white;padding:15px 20px;font-size:12px;font-weight:800;box-shadow:0 12px 30px #0002}.split-copy>p{color:var(--grey);font-size:16px;line-height:1.85}.tick-list{margin:28px 0 34px;padding:0;list-style:none}.tick-list li{padding:14px 0;border-bottom:1px solid var(--line);font-size:14px;font-weight:700}.tick-list li:before{content:'✓';color:var(--blue);margin-right:14px}.dark-band{background:var(--deep);color:white;overflow:hidden}.dark-band .split{min-height:525px}.dark-band .split-copy{padding:75px 0}.dark-band p{color:#b6c8dd}.dark-band .kicker{color:#82b8ff}.dark-band .large-photo{height:100%;min-height:525px;background-image:url('https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?auto=format&fit=crop&w=1200&q=85')}.dark-band .tick-list li{border-color:#ffffff24}.dark-band .tick-list li:before{color:#7db4ff}.steps{display:grid;grid-template-columns:repeat(3,1fr);gap:25px}.step{border-top:3px solid var(--blue);padding:25px 0}.step .n{font-size:13px;color:var(--blue);font-weight:800}.step h3{font-size:21px;margin:14px 0 10px}.step p{color:var(--grey);font-size:14px}.project-grid{display:grid;grid-template-columns:1.2fr .8fr;gap:18px}.project-photo{min-height:350px;background-position:center;background-size:cover;position:relative}.project-photo:nth-child(1){background-image:url('https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=1200&q=85')}.project-photo:nth-child(2){background-image:url('https://images.unsplash.com/photo-1600607687644-c7171b42498f?auto=format&fit=crop&w=900&q=85')}.project-photo span{position:absolute;bottom:18px;left:18px;background:#fff;padding:10px 15px;font-size:12px;font-weight:800}.disclaimer{font-size:12px;color:var(--grey);margin-top:15px}.cta{background:linear-gradient(105deg,#0a4da8,#071c3d);color:white;padding:75px 0}.cta .container{display:flex;align-items:center;justify-content:space-between;gap:30px}.cta h2{margin:8px 0;font-size:clamp(31px,4vw,49px);letter-spacing:-.04em;line-height:1.13}.cta p{color:#c7d9ed}.contact-grid{display:grid;grid-template-columns:.9fr 1.1fr;gap:70px}.contact-grid p{color:var(--grey)}.contact-details{margin-top:30px}.contact-details div{padding:16px 0;border-bottom:1px solid var(--line);font-size:14px}.contact-details b{display:block;color:var(--ink);margin-bottom:4px}.form{background:#f6f8fb;border:1px solid var(--line);padding:34px}.form h3{margin:0 0 6px;font-size:23px}.form>p{font-size:13px;margin:0 0 25px}.fields{display:grid;grid-template-columns:1fr 1fr;gap:16px}.field{display:flex;flex-direction:column;gap:7px;margin-bottom:16px}.field.full{grid-column:1/-1}.field label{font-size:12px;font-weight:800}.field input,.field select,.field textarea{border:1px solid #d3dce8;background:white;border-radius:0;padding:13px 14px;color:var(--ink);outline:none;width:100%;font-size:14px}.field input:focus,.field select:focus,.field textarea:focus{border-color:var(--blue)}.field textarea{min-height:112px;resize:vertical}.form-note{font-size:11px;color:var(--grey);margin-top:15px}.footer{background:#061326;color:#c5d3e3;padding:60px 0 22px}.footer-main{display:grid;grid-template-columns:1.5fr 1fr 1fr;gap:65px;padding-bottom:50px}.footer-logo{width:220px;max-width:100%;background:white;padding:10px}.footer p,.footer a{font-size:13px;color:#b9c8da}.footer h4{color:white;font-size:14px;margin:0 0 20px}.footer ul{list-style:none;padding:0;margin:0}.footer li{margin:12px 0}.footer a:hover{color:white}.footer-bottom{border-top:1px solid #ffffff25;padding-top:22px;display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap;font-size:11px}.page-hero{background:linear-gradient(90deg,#07182ef0,#07182ebd),url('https://images.unsplash.com/photo-1600566752355-35792bedcfea?auto=format&fit=crop&w=1600&q=80') center/cover;color:white;padding:100px 0}.page-hero h1{font-size:clamp(40px,5vw,68px);line-height:1.1;letter-spacing:-.05em;max-width:800px;margin:20px 0}.page-hero p{max-width:620px;color:#d4e2f3}.detail-wrap{padding:75px 0}.detail-wrap .split{align-items:start}.detail-wrap p{color:var(--grey);line-height:1.85}.detail-wrap h2{font-size:35px}.detail-card{background:var(--soft);padding:35px}.detail-card ul{padding-left:20px;color:var(--grey);line-height:2}.back{color:var(--blue);font-size:13px;font-weight:800}.legal{max-width:780px;padding:70px 0}.legal p{color:var(--grey)}[hidden]{display:none!important}
+@media(max-width:1000px){.navlinks{gap:15px}.logo img{width:140px}.split{gap:35px}.services{grid-template-columns:repeat(2,1fr)}.footer-main{gap:30px}}
+@media(max-width:760px){.container{width:min(100% - 36px,1200px)}.topline span:last-child{display:none}.header-inner{min-height:76px}.logo img{height:65px;width:130px}.menu-toggle{display:block}.navlinks{display:none;position:absolute;left:0;right:0;top:100%;background:white;flex-direction:column;align-items:stretch;padding:20px;border-bottom:1px solid var(--line);box-shadow:0 15px 25px #0002}.navlinks.open{display:flex}.navlinks a{padding:8px}.hero{min-height:620px;background-position:62% center}.hero-inner{padding:75px 0}.hero h1{font-size:clamp(41px,9vw,58px)}.hero p{font-size:16px}.hero-bottom{margin-top:50px;gap:15px}.trust .container{grid-template-columns:1fr}.trust-item{padding:15px 0;border-right:0;border-bottom:1px solid #ffffff30}.section{padding:72px 0}.section-heading{display:block}.services,.split,.steps,.project-grid,.contact-grid,.footer-main{grid-template-columns:1fr}.service-image{height:235px}.large-photo{min-height:350px}.dark-band .split-copy{padding:65px 0 20px}.dark-band .large-photo{min-height:340px}.cta .container{display:block}.cta .button{margin-top:15px}.contact-grid{gap:35px}.footer-main{gap:30px}.footer-logo{width:190px}}
+@media(max-width:460px){.fields{grid-template-columns:1fr}.hero-actions .button{width:100%}.form{padding:20px}.hero-bottom{display:none}.hero{min-height:580px}.service-image{height:205px}}
+
+/* ENTWURF 03 — premium motion, soft imagery, and RSG-inspired navigation */
+:root{--blue:#0b56b5;--deep:#071c37;--soft:#f5f8fc}html{scroll-padding-top:110px}body{font-family:Arial,Helvetica,sans-serif}.site-header{box-shadow:0 5px 24px #071d3510}.header-inner{min-height:100px}.navlinks a{position:relative}.navlinks a:not(.button):after{content:'';position:absolute;bottom:-9px;left:0;width:0;height:2px;background:#0b56b5;transition:width .25s}.navlinks a:hover:after{width:100%}.hero{position:relative;isolation:isolate;background:#07182e;min-height:690px;overflow:hidden}.hero-slides,.hero-shade{position:absolute;inset:0;z-index:-1}.hero-slide{position:absolute;inset:0;background-size:cover;background-position:center;opacity:0;transform:scale(1.06);transition:opacity 1.5s ease,transform 8s ease}.hero-slide.active{opacity:1;transform:scale(1)}.hero-shade{background:linear-gradient(90deg,rgba(4,17,36,.95) 0%,rgba(4,17,36,.83) 43%,rgba(4,17,36,.14) 100%)}.hero h1{max-width:780px}.hero p{max-width:540px}.section{padding:105px 0}.service{border-radius:13px;box-shadow:0 8px 30px #081e3610}.service-image{height:245px;filter:saturate(.76)}.service-image:after{background:linear-gradient(0deg,#0b234055,transparent 60%)}.service-body{padding:27px 26px 31px}.service h3{font-size:22px}.service a{display:inline-flex;gap:12px;align-items:center}.floor-feature{background:#fff;padding:95px 0 30px}.floor-layout{display:grid;grid-template-columns:1.06fr .94fr;align-items:center;gap:76px}.floor-visual{height:520px;position:relative;border-radius:6px;background:linear-gradient(0deg,#0b213133,transparent 45%),url('assets/boden-elegant-original.jpg') center/cover;box-shadow:25px 25px 0 #e8f1fb}.floor-tag{position:absolute;bottom:24px;left:24px;background:#fff;padding:15px 20px;font-size:11px;letter-spacing:.12em;font-weight:800;color:#0b56b5}.floor-content h2{font-size:clamp(38px,4.5vw,60px);line-height:1.1;letter-spacing:-.055em;margin:19px 0}.floor-content h2 span{color:#0b56b5}.floor-content p{color:#667489;line-height:1.9}.floor-chips{display:flex;flex-wrap:wrap;gap:10px;margin:25px 0 32px}.floor-chips span{padding:10px 13px;border:1px solid #d8e5f4;border-radius:30px;color:#294767;font-size:12px;font-weight:700}.audience{background:#eaf3fd}.audience-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}.audience-card{display:block;background:white;border:1px solid #dbe7f5;padding:34px;border-radius:14px;transition:transform .25s,box-shadow .25s}.audience-card:hover{transform:translateY(-5px);box-shadow:0 18px 40px #143b6817}.audience-icon{display:grid;place-items:center;background:#eaf3fd;color:#0952b8;width:49px;height:49px;border-radius:14px;font-size:26px}.audience-card h3{font-size:21px;margin:23px 0 10px}.audience-card p{color:#667489;min-height:72px;font-size:14px}.audience-card strong{color:#0952b8;font-size:12px}.floating-contact{position:fixed;right:18px;top:46%;z-index:90;display:flex;flex-direction:column;gap:9px}.floating-contact a{display:grid;place-items:center;width:47px;height:47px;background:#0b56b5;color:white;border-radius:50%;box-shadow:0 6px 22px #061d3d40;font-size:24px;transition:transform .2s,background .2s}.floating-contact a:hover{transform:translateX(-4px);background:#063c86}.section-heading h2{letter-spacing:-.055em}.reveal{opacity:0;transform:translateY(24px);transition:opacity .7s ease,transform .7s ease}.reveal.visible{opacity:1;transform:none}@media(max-width:900px){.floor-layout{grid-template-columns:1fr;gap:55px}.floor-visual{height:390px}.audience-grid{grid-template-columns:1fr}.audience-card p{min-height:0}.floating-contact{right:9px}.floating-contact a{width:40px;height:40px;font-size:20px}}@media(prefers-reduced-motion:reduce){.reveal{opacity:1;transform:none}.hero-slide{transition:none;transform:none}.service,.audience-card{transition:none}}
+
+/* Entwurf 04: the supplied original logo file is unchanged; only its visual presentation is softened. */
+.footer-logo{display:block;background:transparent;padding:0;width:340px;max-width:100%;opacity:.98;mix-blend-mode:screen;-webkit-mask-image:radial-gradient(ellipse 95% 90% at 50% 50%,#000 62%,transparent 100%);mask-image:radial-gradient(ellipse 95% 90% at 50% 50%,#000 62%,transparent 100%)}
+.service-image{filter:saturate(.79) brightness(1.04)}.service-image:after{background:linear-gradient(0deg,#09233e66,transparent 65%)}
+.whatsapp-demo{position:fixed;bottom:22px;right:20px;z-index:110;display:flex;align-items:center;justify-content:center;width:56px;height:56px;border-radius:50%;background:#21bb67;color:white;box-shadow:0 8px 30px #123b2640;font-size:25px;font-weight:bold;border:3px solid white;transition:transform .2s}.whatsapp-demo:hover{transform:scale(1.08)}
+.whatsapp-hint{position:fixed;right:86px;bottom:30px;background:#fff;color:#17402c;padding:9px 12px;box-shadow:0 5px 24px #0002;border-radius:9px;font-size:12px;z-index:110;max-width:220px}
+@media(max-width:760px){.whatsapp-demo{width:49px;height:49px;right:12px;bottom:12px}.whatsapp-hint{display:none}}
+.services{grid-template-columns:repeat(3,minmax(0,1fr))}.service-image{height:245px}.service-image:after{background:linear-gradient(0deg,#071b356b,transparent 55%)}.footer-main>div:first-child{max-width:390px}.footer-logo{margin-left:-18px}.hero-slide{background-position:center center}@media(max-width:900px){.services{grid-template-columns:repeat(2,minmax(0,1fr))}}@media(max-width:600px){.services{grid-template-columns:1fr}.footer-logo{width:290px;margin-left:-12px}}
+
+/* Entwurf 15: Originalfoto und Kontakt */
+.floor-visual{background-position:center center}.contact-details a{color:#0b56b5;text-decoration:underline;text-underline-offset:3px}#legal-text{white-space:pre-line}
+@media(min-width:901px){.floor-layout{grid-template-columns:1.18fr .82fr;gap:55px}.floor-visual{height:530px}}
+</style><style>
+/* Entwurf 06: activity-led advertising slideshow */
+.hero{position:relative;isolation:isolate}.hero-slides{position:absolute;inset:0;z-index:-2;overflow:hidden}.hero-slide{position:absolute;inset:0;background-size:cover;background-position:center;opacity:0;transform:scale(1.06);transition:opacity 1.35s ease,transform 7s ease}.hero-slide.active{opacity:1;transform:scale(1)}.hero-shade{position:absolute;inset:0;z-index:-1;background:linear-gradient(90deg,rgba(4,16,35,.92),rgba(4,16,35,.62) 52%,rgba(4,16,35,.22))}.hero-inner{position:relative}.hero-progress{display:flex;align-items:center;gap:16px;margin-top:27px;font-size:11px;color:#e5f0ff;letter-spacing:.08em;font-weight:700}.hero-progress-track{height:3px;background:#ffffff55;width:115px;overflow:hidden}.hero-progress-track i{display:block;height:100%;width:14.285%;background:#84baff;transition:width .5s}.hero-progress-label{color:#bcd9ff}.service-image{background-position:center;filter:saturate(.95)}.footer-logo{width:330px;max-width:100%;padding:0;background:transparent;filter:drop-shadow(0 10px 24px #a8cfff35);border-radius:24px;mask-image:linear-gradient(90deg,transparent,#000 9%,#000 91%,transparent)}.audience-icon{font-size:23px}@media(max-width:760px){.hero-progress-label{display:none}.hero{min-height:630px}.footer-logo{width:270px}}
+</style><style>
+/* Entwurf 07: visually distinctive RSG-inspired sections, not copied */
+.hero{min-height:710px}.hero-shade{background:linear-gradient(90deg,rgba(5,17,36,.94),rgba(5,17,36,.76) 42%,rgba(5,17,36,.10) 100%)}
+.hero-ad-tag{margin-top:22px;display:inline-flex;gap:9px;align-items:center;padding:10px 15px;background:#061b36a8;border:1px solid #b9d9ff4a;color:#e9f4ff;font-size:11px;font-weight:700;letter-spacing:.08em;backdrop-filter:blur(8px)}.hero-ad-tag b{color:#91c5ff}.hero-ad-tag span{color:#7aaddf}
+.service-image{height:250px}.service{border-radius:15px;box-shadow:0 8px 26px #061d3810}.service-image{border-radius:15px 15px 0 0}.service-body{min-height:225px}.service:hover .service-image{filter:saturate(1.04)}
+.footer-logo{width:390px;max-width:100%;background:transparent!important;box-shadow:none!important;filter:none!important;border-radius:0!important;mask-image:linear-gradient(90deg,transparent,#000 9%,#000 91%,transparent)}
+.audience-card{border-radius:16px}.audience-icon{display:inline-flex;width:45px;height:45px;align-items:center;justify-content:center;border-radius:12px;background:#e6f1ff;color:#0753ad}
+@media(max-width:760px){.hero{min-height:650px}.hero-ad-tag{font-size:9px;flex-wrap:wrap}.footer-logo{width:300px}}
+</style><style>.why-hk{background:#fff}.why-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:24px}.why-grid article{padding:25px 8px 20px;border-top:2px solid #c7d9ed}.why-grid span{font-size:13px;color:#0b56b5;font-weight:800}.why-grid h3{font-size:18px;margin:15px 0 8px}.why-grid p{color:#667489;font-size:14px}.footer-logo{background:transparent!important;mask-image:radial-gradient(ellipse 68% 64% at center,#000 56%,transparent 100%)!important;filter:none!important;width:360px!important;max-width:100%}.hero-slide{background-color:#132b46}.service-image{background-color:#dce7f1}@media(max-width:850px){.why-grid{grid-template-columns:repeat(2,1fr)}}@media(max-width:480px){.why-grid{grid-template-columns:1fr}}</style><style>
+/* Entwurf 09: manual hero navigation only */
+.hero-arrow{position:absolute;top:50%;transform:translateY(-50%);z-index:5;width:52px;height:60px;border:1px solid #ffffff75;background:#071b36a8;color:#fff;border-radius:8px;font-size:36px;line-height:1;display:grid;place-items:center;backdrop-filter:blur(8px);transition:background .2s}
+.hero-arrow:hover,.hero-arrow:focus-visible{background:#0952b8;outline:2px solid #fff;outline-offset:2px}
+.hero-arrow.prev{left:18px}.hero-arrow.next{right:18px}
+@media(max-width:760px){.hero-arrow{width:36px;height:46px;font-size:27px}.hero-arrow.prev{left:5px}.hero-arrow.next{right:5px}.hero-inner{padding-left:23px;padding-right:23px}}
+</style><style>/* Entwurf 11 – header brand only; photo retouch pending */
+.logo img{width:210px;height:91px}
+.header-inner{min-height:105px}
+
+@media(max-width:1000px){.logo img{width:185px;height:83px}}
+@media(max-width:760px){.logo img{width:160px;height:74px}.header-inner{min-height:82px}}
+</style><style>/* Entwurf 13: larger header logo with transparent canvas; original source preserved. */
+.site-header .logo img{width:260px!important;height:auto!important;max-height:116px;object-fit:contain}
+.site-header .header-inner{min-height:122px}
+@media(max-width:1000px){.site-header .logo img{width:225px!important}.site-header .header-inner{min-height:108px}}
+@media(max-width:760px){.site-header .logo img{width:185px!important;max-height:86px}.site-header .header-inner{min-height:94px}}
+</style><style>/* Entwurf 14: additional cleaning service navigation */
+.cleaning-section{background:#f4f7fb}.cleaning-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px}.cleaning-card{display:flex;flex-direction:column;min-height:232px;background:white;border:1px solid #e0e8f2;border-radius:16px;padding:26px;box-shadow:0 8px 28px #10213a0a;transition:transform .2s,box-shadow .2s}.cleaning-card:hover{transform:translateY(-4px);box-shadow:0 16px 36px #10213a1c}.cleaning-symbol{display:flex;align-items:center;justify-content:center;width:46px;height:46px;border-radius:12px;background:#e8f2ff;color:#0952b8;font-size:27px;margin-bottom:16px}.cleaning-card h3{font-size:19px;line-height:1.3;margin:0 0 8px}.cleaning-card p{color:#667489;font-size:13px;margin:0 0 16px;flex:1}.cleaning-link{font-size:12px;color:#0952b8;font-weight:800}.cleaning-more-title{margin:42px 0 18px;text-align:center;font-size:23px}.cleaning-more{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px}.cleaning-more a{border:1px solid #d8e3f1;border-radius:9px;padding:13px 15px;background:white;font-size:13px;font-weight:700;color:#174b8b}.cleaning-more a:hover{border-color:#0952b8}.cleaning-disclaimer{font-size:12px;color:#667489;margin-top:24px}@media(max-width:850px){.cleaning-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.cleaning-more{grid-template-columns:repeat(2,minmax(0,1fr))}}@media(max-width:550px){.cleaning-grid{grid-template-columns:1fr}.cleaning-more{grid-template-columns:1fr}.cleaning-card{min-height:190px}}
+</style><style>.mega-wrap{position:relative}.mega-trigger{border:0;background:transparent;font-weight:700;color:#10213a;cursor:pointer}.mega-menu{display:none;position:absolute;top:100%;left:-100px;width:660px;background:#08182e;color:white;padding:28px;grid-template-columns:1fr 1fr;gap:30px;box-shadow:0 20px 40px #0005;z-index:200}.mega-wrap:hover .mega-menu,.mega-wrap:focus-within .mega-menu,.mega-wrap.open .mega-menu{display:grid}.mega-menu h3{color:#91c2ff;font-size:14px}.mega-menu a{display:block;color:white!important;padding:9px;border-bottom:1px solid #ffffff22}.floor-showcase{width:100%;background:#0b1a2b}.floor-showcase-image{height:clamp(440px,68vw,820px);background:url('assets/boden-elegant-original.jpg') center/cover no-repeat}.footer-logo{background:transparent!important;padding:0!important}@media(max-width:760px){.mega-wrap{width:100%}.mega-trigger{padding:9px;text-align:left;width:100%}.mega-menu{position:static;width:100%;grid-template-columns:1fr;box-shadow:none}.mega-wrap:hover .mega-menu{display:none}.mega-wrap.open .mega-menu{display:grid}.floor-showcase-image{height:470px}}</style><style>/* Entwurf 17: Parallax scrolling and light-on-dark footer logo */
+.floor-showcase{position:relative;isolation:isolate}
+.floor-showcase-image{height:85vh;min-height:520px;max-height:950px;background-image:url('assets/boden-elegant-original.jpg');background-position:center;background-size:cover;background-repeat:no-repeat;background-attachment:fixed}
+#ueber-uns{position:relative;z-index:2;background:white;box-shadow:0 -14px 36px rgba(7,24,46,.08)}
+.footer-logo{mask-image:none!important;-webkit-mask-image:none!important;mix-blend-mode:normal!important;opacity:1!important;filter:none!important;margin-left:0!important;width:330px!important}
+@media(max-width:760px){.floor-showcase-image{height:75vh;min-height:450px;background-attachment:scroll}.footer-logo{width:280px!important}}
+@media(prefers-reduced-motion:reduce){.floor-showcase-image{background-attachment:scroll}}
+</style><style>
+.navlinks .mega-wrap{position:relative}
+.navlinks .mega-menu{left:50%;transform:translateX(-50%);min-width:520px;max-width:calc(100vw - 30px)}
+.navlinks .mega-trigger{padding:12px 4px;white-space:nowrap}
+@media(max-width:900px){.navlinks .mega-menu{left:0;transform:none;min-width:0;width:min(620px,calc(100vw - 32px))}}
+@media(max-width:760px){.navlinks .mega-wrap{width:100%}.navlinks .mega-trigger{display:block;width:100%;text-align:left;padding:12px 8px}.navlinks .mega-menu{position:static;left:auto;transform:none;width:100%;max-width:100%;box-shadow:none;display:none}.navlinks .mega-wrap:hover:not(.open) .mega-menu,.navlinks .mega-wrap:focus-within:not(.open) .mega-menu{display:none}.navlinks .mega-wrap.open .mega-menu{display:grid}}
+</style></head><body>
+<div class="topline"><div class="container"><span>HAUSKRAFT SERVICE · NÜRTINGEN & UMGEBUNG</span><span>ZUVERLÄSSIG. SAUBER. STARK.</span></div></div>
+<header class="site-header"><div class="container header-inner"><a href="#start" class="logo" data-home aria-label="HausKraft Service Startseite"><img src="assets/hauskraft-logo-header-transparent.png" alt="HausKraft Service – Original-Logo"></a><button class="menu-toggle" id="menu" aria-expanded="false" aria-label="Menü öffnen">☰ Menü</button><nav class="navlinks" id="nav"><div class="mega-wrap"><button class="mega-trigger" type="button" aria-expanded="false">Leistungen ▾</button><div class="mega-menu"><div><h3>Reinigung & Pflege</h3><a href="#reinigungsarten">Büroreinigung</a><a href="#reinigungsarten">Baufeinreinigung</a><a href="#reinigungsarten">Glasreinigung</a><a href="#reinigungsarten">Unterhaltsreinigung</a><a href="#reinigungsarten">Treppenhausreinigung</a></div><div><h3>Innenausbau & Objektservice</h3><a href="#leistungen">Trockenbau & Innenausbau</a><a href="#leistungen">Bodenverlegung</a><a href="#leistungen">Hausmeisterservice</a><a href="#leistungen">Gartenpflege</a></div></div></div><div class="mega-wrap"><button class="mega-trigger" type="button" aria-expanded="false" aria-haspopup="true">Reinigung ▾</button><div class="mega-menu"><div><h3>Reinigungsleistungen</h3><a href="#reinigungsarten">Unterhaltsreinigung</a><a href="#reinigungsarten">Büro- & Praxisreinigung</a><a href="#reinigungsarten">Treppenhausreinigung</a></div><div><h3>Weitere Reinigung</h3><a href="#reinigungsarten">Glasreinigung</a><a href="#reinigungsarten">Baufeinreinigung</a><a href="#kontakt">Reinigung anfragen</a></div></div></div><div class="mega-wrap"><button class="mega-trigger" type="button" aria-expanded="false" aria-haspopup="true">Über uns ▾</button><div class="mega-menu"><div><h3>Unser Unternehmen</h3><a href="#ueber-uns">Wer wir sind</a><a href="#ablauf">Unsere Arbeitsweise</a></div><div><h3>Das zeichnet uns aus</h3><a href="#ueber-uns">Persönliche Betreuung</a><a href="#ueber-uns">Qualität & Zuverlässigkeit</a><a href="#kontakt">Kontakt aufnehmen</a></div></div></div><div class="mega-wrap"><button class="mega-trigger" type="button" aria-expanded="false" aria-haspopup="true">Hausverwaltungen ▾</button><div class="mega-menu"><div><h3>Für Immobilien</h3><a href="#hausverwaltungen">Hausmeisterservice</a><a href="#hausverwaltungen">Treppenhausreinigung</a><a href="#hausverwaltungen">Garten- & Außenpflege</a></div><div><h3>Zusammenarbeit</h3><a href="#hausverwaltungen">Regelmäßige Objektbetreuung</a><a href="#kontakt">Individuelle Anfrage</a></div></div></div><div class="mega-wrap"><button class="mega-trigger" type="button" aria-expanded="false" aria-haspopup="true">So arbeiten wir ▾</button><div class="mega-menu"><div><h3>Unser Ablauf</h3><a href="#ablauf">Anfrage & Erstkontakt</a><a href="#ablauf">Besichtigung & Beratung</a><a href="#ablauf">Angebot & Abstimmung</a></div><div><h3>Umsetzung</h3><a href="#ablauf">Sorgfältige Ausführung</a><a href="#ablauf">Abnahme & Rückmeldung</a><a href="#kontakt">Jetzt anfragen</a></div></div></div><a href="#kontakt" data-home class="button">Angebot anfragen ↗</a></nav></div></header>
+<div id="home-view">
+<section class="hero" id="start"><div class="hero-slides" aria-hidden="true"><div class="hero-slide active hk-brand" style="background-image:url('assets/Trockenbau.png')" aria-label="Trockenbau & Innenausbau"></div><div class="hero-slide" style="background-image:url('assets/Bodenleger.png')" aria-label="Bodenverlegung"></div><div class="hero-slide" style="background-image:url('assets/Reinigung.png')" aria-label="Reinigung & Pflege"></div><div class="hero-slide hk-brand" style="background-image:url('assets/Hausmeister.png')" aria-label="Hausmeisterservice"></div><div class="hero-slide hk-brand" style="background-image:url('assets/Gartenpfleger.png')" aria-label="Gartenpflege"></div><div class="hero-slide hk-brand" style="background-image:url('assets/bodenleger.jpg')" aria-label="Bodenarbeiten"></div><div class="hero-slide" style="background-image:url('assets/Innenausbau.jpg')" aria-label="Innenausbau"></div></div><div class="hero-shade"></div><button class="hero-arrow prev" type="button" aria-label="Vorheriges Bild">&#10094;</button><button class="hero-arrow next" type="button" aria-label="Nächstes Bild">&#10095;</button><div class="container hero-inner"><div class="eyebrow">Innenausbau & Gebäudeservice</div><h1>Ihr Gebäude.<br><em>Unsere Verantwortung.</em></h1><p>Durchdachte Lösungen für Innenräume, Böden und Immobilien. Persönlich betreut, sorgfältig umgesetzt – in Nürtingen und Umgebung.</p><div class="hero-actions"><a class="button" href="#kontakt">Projekt unverbindlich anfragen ↗</a><a class="button outline" href="#leistungen">Leistungen entdecken ↓</a></div><div class="hero-bottom"><span>Persönliche Betreuung</span><span>Klare Absprachen</span><span>Regional im Einsatz</span></div><div class="hero-ad-tag">EINBLICKE IN UNSERE LEISTUNGEN <span>·</span> <b id="hero-activity">Trockenbau & Innenausbau</b></div><div class="hero-progress" aria-label="7 Bildmotive: Trockenbau, Bodenverlegung, Reinigung, Hausmeisterservice, Gartenpflege und Innenausbau"><span>01 / 07</span><div class="hero-progress-track"><i></i></div><span class="hero-progress-label">Trockenbau & Innenausbau</span></div></div></section>
+<div class="trust"><div class="container"><div class="trust-item"><span class="trust-icon">◇</span><div><b>Persönlich & direkt</b><small>Ein Ansprechpartner für Ihr Vorhaben</small></div></div><div class="trust-item"><span class="trust-icon">✧</span><div><b>Sauber & sorgfältig</b><small>Mit Blick fürs Detail</small></div></div><div class="trust-item"><span class="trust-icon">⌂</span><div><b>Nürtingen & Region</b><small>Für Privatkunden und Verwaltungen</small></div></div></div></div>
+<section class="floor-feature" id="bodenwelten"><div class="container floor-layout"><div class="floor-visual"><div class="floor-tag">BODENBELÄGE · WOHNEN MIT STIL</div></div><div class="floor-content"><div class="kicker">Ein Schwerpunkt unserer Arbeit</div><h2>Schöne Böden.<br><span>Ein neues Raumgefühl.</span></h2><p>Ein sorgfältig verlegter Boden verändert den Charakter eines Raums. Wir verlegen moderne Vinyl- und Designböden sowie Laminat – sauber, passend und mit Liebe zum Detail.</p><div class="floor-chips"><span>Vinyl & Designboden</span><span>Laminat</span><span>Untergrundvorbereitung</span><span>Sockelleisten</span></div><a class="button" href="#leistung-bodenverlegung">Bodenverlegung entdecken ↗</a></div></div></section>
+<section class="section soft" id="leistungen"><div class="container"><div class="section-heading"><div><div class="kicker">Unsere Kompetenzen</div><h2>Leistungen, die<br>weiterdenken.</h2></div><p>Von der gezielten Modernisierung bis zur laufenden Objektpflege: Wir verbinden handwerkliche Leistungen mit zuverlässigem Gebäudeservice.</p></div><div class="services" id="service-cards"></div></div></section>
+<section class="section cleaning-section" id="reinigungsarten"><div class="container"><div class="section-heading"><div><div class="kicker">Reinigung &amp; Pflege</div><h2>Unsere Reinigungsleistungen.</h2></div><p>Für private, gewerbliche und gemeinschaftlich genutzte Flächen. Umfang und Durchführung stimmen wir individuell mit Ihnen ab.</p></div><div class="cleaning-grid">
+<a class="cleaning-card" href="#leistung-reinigung"><span class="cleaning-symbol">▦</span><h3>Büroreinigung</h3><p>Arbeitsplätze, Böden und gemeinsam genutzte Räume.</p><span class="cleaning-link">Mehr erfahren →</span></a>
+<a class="cleaning-card" href="#leistung-reinigung"><span class="cleaning-symbol">✧</span><h3>Baufeinreinigung</h3><p>Feinreinigung nach abgeschlossenen Bau- und Renovierungsarbeiten.</p><span class="cleaning-link">Mehr erfahren →</span></a>
+<a class="cleaning-card" href="#leistung-reinigung"><span class="cleaning-symbol">◇</span><h3>Glasreinigung</h3><p>Fenster und zugängliche Glasflächen nach Vereinbarung.</p><span class="cleaning-link">Mehr erfahren →</span></a>
+<a class="cleaning-card" href="#leistung-reinigung"><span class="cleaning-symbol">⌂</span><h3>Außenreinigung</h3><p>Pflege und Reinigung geeigneter Außenbereiche.</p><span class="cleaning-link">Mehr erfahren →</span></a>
+<a class="cleaning-card" href="#leistung-reinigung"><span class="cleaning-symbol">⚙</span><h3>Industriereinigung</h3><p>Geeignete, zugängliche Betriebsflächen – nach Prüfung des Auftrags.</p><span class="cleaning-link">Mehr erfahren →</span></a>
+<a class="cleaning-card" href="#leistung-reinigung"><span class="cleaning-symbol">▤</span><h3>Gebäudereinigung</h3><p>Treppenhäuser, Eingänge und Gemeinschaftsflächen.</p><span class="cleaning-link">Mehr erfahren →</span></a>
+</div><h3 class="cleaning-more-title">Weitere Reinigungsleistungen</h3><div class="cleaning-more"><a href="#leistung-reinigung">→ Unterhaltsreinigung</a><a href="#leistung-reinigung">→ Treppenhausreinigung</a><a href="#leistung-reinigung">→ Grundreinigung</a><a href="#leistung-reinigung">→ Reinigung nach Renovierung</a></div><p class="cleaning-disclaimer">Hinweis: Spezialreinigungen, Arbeiten in der Höhe sowie Tätigkeiten mit besonderen Sicherheitsanforderungen nur nach Prüfung der Eignung, Ausrüstung und rechtlichen Voraussetzungen.</p></div></section>
+<section class="floor-showcase" aria-label="Fertig verlegter Boden"><div class="floor-showcase-image"></div></section><section class="section" id="ueber-uns"><div class="container split"><div class="large-photo"><div class="photo-label">QUALITÄT BEGINNT BEI DEN DETAILS</div></div><div class="split-copy"><div class="kicker">Über HausKraft Service</div><h2>Ein starker Partner. Ein gutes Gefühl.</h2><p>HausKraft Service ist ein familiengeführtes Unternehmen aus Nürtingen. Wir unterstützen unsere Kunden mit praktischen Lösungen im Innenausbau und rund um die Immobilie – verlässlich, transparent und mit persönlichem Einsatz.</p><ul class="tick-list"><li>Direkte Kommunikation statt Umwege</li><li>Abgestimmte Leistungen für jedes Projekt</li><li>Sorgfältige Ausführung und saubere Übergabe</li></ul><a class="button" href="#kontakt">Lernen Sie uns kennen ↗</a></div></div></section>
+<section class="dark-band" id="hausverwaltungen"><div class="container split"><div class="split-copy"><div class="kicker">Für Hausverwaltungen & Eigentümer</div><h2>Eine Immobilie.<br>Viele Aufgaben.<br>Ein verlässlicher Kontakt.</h2><p>Ob regelmäßige Objektpflege, kleinere Instandhaltungsmaßnahmen oder Unterstützung bei der Vorbereitung von Räumen: Wir besprechen den Bedarf und entwickeln eine passende Lösung.</p><ul class="tick-list"><li>Hausmeisterservice & Objektkontrollen</li><li>Reinigung von Gemeinschaftsbereichen</li><li>Gartenpflege & abgestimmte Einzelarbeiten</li></ul><a class="button light" href="#kontakt">Zusammenarbeit anfragen ↗</a></div><div class="large-photo" aria-label="Beispielbild eines gepflegten Innenraums"></div></div></section>
+<section class="audience section" id="zielgruppen"><div class="container"><div class="section-heading"><div><div class="kicker">Für wen wir arbeiten</div><h2>Für Menschen.<br>Für Immobilien.</h2></div><p>Persönliche Betreuung und klare Lösungen für unterschiedliche Anforderungen.</p></div><div class="audience-grid"><a href="#kontakt" class="audience-card"><span class="audience-icon">⌂</span><h3>Privatkunden</h3><p>Renovierung, Innenausbau und neue Böden für Ihr Zuhause.</p><strong>Anfrage stellen ↗</strong></a><a href="#hausverwaltungen" class="audience-card"><span class="audience-icon">▦</span><h3>Hausverwaltungen</h3><p>Objektpflege, Hausmeisterservice und verlässliche Abstimmung.</p><strong>Mehr erfahren ↗</strong></a><a href="#kontakt" class="audience-card"><span class="audience-icon">▣</span><h3>Gewerbekunden</h3><p>Praktische Lösungen für gewerbliche Flächen und Objekte.</p><strong>Kontakt aufnehmen ↗</strong></a></div></div></section>
+<section class="section why-hk" id="warum"><div class="container"><div class="section-heading"><div><div class="kicker">Warum HausKraft</div><h2>Gute Arbeit.<br>Klare Absprachen.</h2></div><p>Was bei der Zusammenarbeit mit uns im Mittelpunkt steht.</p></div><div class="why-grid"><article><span>01</span><h3>Persönlicher Kontakt</h3><p>Wir besprechen Ihr Anliegen direkt und verständlich.</p></article><article><span>02</span><h3>Individuelle Planung</h3><p>Leistungen und Umfang werden passend zum Objekt abgestimmt.</p></article><article><span>03</span><h3>Sorgfältige Ausführung</h3><p>Wir legen Wert auf saubere Abläufe und ordentliche Ergebnisse.</p></article><article><span>04</span><h3>Regional erreichbar</h3><p>Unser Schwerpunkt liegt in Nürtingen und der Umgebung.</p></article></div></div></section><section class="section" id="ablauf"><div class="container"><div class="section-heading"><div><div class="kicker">Einfach & transparent</div><h2>So läuft Ihr Projekt ab.</h2></div><p>Keine komplizierten Wege: Wir setzen auf einen klaren Ablauf und persönliche Abstimmung.</p></div><div class="steps"><div class="step"><div class="n">01 / KONTAKT</div><h3>Anfrage stellen</h3><p>Beschreiben Sie uns kurz Ihr Vorhaben, den Standort und Ihre Wünsche.</p></div><div class="step"><div class="n">02 / ABSTIMMUNG</div><h3>Bedarf besprechen</h3><p>Wir klären die Details und vereinbaren bei Bedarf einen Besichtigungstermin.</p></div><div class="step"><div class="n">03 / UMSETZUNG</div><h3>Sauber realisieren</h3><p>Nach der Vereinbarung setzen wir die abgestimmten Arbeiten sorgfältig um.</p></div></div></div></section>
+<section class="section soft" id="einblicke"><div class="container"><div class="section-heading"><div><div class="kicker">Einblicke & Inspiration</div><h2>Räume mit Wirkung.</h2></div><p>Ein erster Eindruck unserer gestalterischen Richtung. Eigene Projektfotos ergänzen wir, sobald sie freigegeben sind.</p></div><div class="project-grid"><div class="project-photo"><span>INNENRÄUME</span></div><div class="project-photo"><span>MODERNE RAUMGESTALTUNG</span></div></div><p class="disclaimer">Hinweis: Die gezeigten Bilder sind illustrative Beispielbilder, keine Referenzprojekte von HausKraft Service.</p></div></section>
+<section class="cta"><div class="container"><div><div class="eyebrow">Lassen Sie uns sprechen</div><h2>Sie haben ein Projekt?<br>Wir haben ein offenes Ohr.</h2><p>Privatimmobilie, Gewerbeobjekt oder Hausverwaltung – wir freuen uns auf Ihre Anfrage.</p></div><a href="#kontakt" class="button light">Jetzt Anfrage starten ↗</a></div></section>
+<section class="section" id="kontakt"><div class="container contact-grid"><div><div class="kicker">Kontakt & Anfrage</div><h2>Erzählen Sie uns von Ihrem Vorhaben.</h2><p>Wir freuen uns auf Ihre Nachricht. Nutzen Sie das Formular, um Ihre Anfrage als E-Mail vorzubereiten.</p><div class="contact-details"><div><b>Unternehmen</b>HausKraft Service · Inhaberin: Bukurije Zuka</div><div><b>Adresse</b>Wendlinger Straße 61, 72622 Nürtingen</div><div><b>Telefon</b><a href="tel:+4917682018734">+49 176 82018734</a></div><div><b>E-Mail</b><a href="mailto:hauskraftservice@gmail.com">hauskraftservice@gmail.com</a></div><div><b>Standort</b>Nürtingen, Baden-Württemberg</div><div><b>Einsatzgebiet</b>Nürtingen und Umgebung – nach Vereinbarung</div></div></div><form class="form" id="contact-form"><h3>Projektanfrage</h3><p>Ihre Angaben werden nicht auf einer Website gespeichert. Beim Absenden wird eine E-Mail vorbereitet. Die Anfrage wird erst verschickt, wenn Sie sie in Ihrem E-Mail-Programm selbst senden.</p><div class="fields"><div class="field"><label for="name">Ihr Name *</label><input id="name" name="name" required autocomplete="name" placeholder="Vor- und Nachname"></div><div class="field"><label for="email">E-Mail *</label><input id="email" type="email" name="email" required autocomplete="email" placeholder="name@beispiel.de"></div><div class="field"><label for="phone">Telefon (optional)</label><input id="phone" name="phone" autocomplete="tel" placeholder="Telefonnummer"></div><div class="field"><label for="service">Gewünschte Leistung *</label><select id="service" required><option value="">Bitte auswählen</option><option>Trockenbau & Innenausbau</option><option>Bodenverlegung</option><option>Hausmeisterservice</option><option>Reinigung & Pflege</option><option>Büroreinigung</option><option>Baufeinreinigung</option><option>Glasreinigung</option><option>Außenreinigung</option><option>Industriereinigung</option><option>Gebäudereinigung</option><option>Unterhaltsreinigung</option><option>Treppenhausreinigung</option><option>Gartenpflege</option><option>Sonstige Anfrage</option></select></div><div class="field full"><label for="message">Ihr Vorhaben *</label><textarea id="message" required placeholder="Was möchten Sie umsetzen? Wo befindet sich das Objekt?"></textarea></div></div><button type="submit" class="button">E-Mail-Anfrage vorbereiten ↗</button><div class="form-note" id="form-status" role="status" aria-live="polite">Ihre Anfrage wird als E-Mail vorbereitet, nicht automatisch gesendet.</div><button type="button" id="copy-request" class="button outline" style="margin-top:12px">Anfrage kopieren</button></form></div></section>
+</div>
+<div id="detail-view" hidden><div class="page-hero"><div class="container"><a href="#leistungen" class="back" data-home style="color:#a7cfff">← Alle Leistungen</a><div class="eyebrow" style="margin-top:32px">HausKraft Service · Leistungen</div><h1 id="detail-title"></h1><p id="detail-subtitle"></p></div></div><div class="container detail-wrap"><div class="split"><div><div class="kicker">Unsere Leistungen</div><h2 id="detail-heading"></h2><p id="detail-text"></p><a class="button" href="#kontakt" data-home>Projekt anfragen ↗</a></div><div class="detail-card"><h3>Leistungen im Überblick</h3><ul id="detail-list"></ul><p style="font-size:12px">Leistungsumfang und Ausführung werden individuell abgestimmt. Es werden ausschließlich zulässige Tätigkeiten angeboten.</p></div></div></div></div>
+<div id="legal-view" hidden><div class="container legal"><a href="#start" data-home class="back">← Zur Startseite</a><h1 id="legal-title"></h1><p id="legal-text"></p></div></div>
+<a class="whatsapp-demo" href="https://wa.me/4917682018734" target="_blank" rel="noopener" title="WhatsApp HausKraft Service" aria-label="WhatsApp HausKraft Service">✆</a><aside class="floating-contact" aria-label="Schnellkontakt"><a href="#kontakt" title="Anfrage senden" aria-label="Anfrage senden">✉</a><a href="#hausverwaltungen" title="Objektbetreuung" aria-label="Objektbetreuung">⌂</a><a href="#start" title="Nach oben" aria-label="Nach oben">↑</a></aside><footer class="footer"><div class="container"><div class="footer-main"><div><img class="footer-logo" src="assets/hauskraft-logo-footer-v18.png" alt="HausKraft Service Logo für dunklen Hintergrund"><p>Innenausbau · Gebäudeservice · Reinigung & Pflege<br>Nürtingen und Umgebung</p></div><div><h4>Leistungen</h4><ul><li><a href="#leistungen" data-home>Trockenbau & Innenausbau</a></li><li><a href="#leistungen" data-home>Bodenverlegung</a></li><li><a href="#leistungen" data-home>Hausmeisterservice</a></li><li><a href="#leistungen" data-home>Reinigung & Gartenpflege</a></li></ul></div><div><h4>Unternehmen</h4><ul><li><a href="#ueber-uns" data-home>Über uns</a></li><li><a href="#hausverwaltungen" data-home>Hausverwaltungen</a></li><li><a href="#kontakt" data-home>Kontakt</a></li><li><a href="#impressum">Impressum (in Vorbereitung)</a></li><li><a href="#datenschutz">Datenschutz (in Vorbereitung)</a></li></ul></div></div><div class="footer-bottom"><span>© 2026 HausKraft Service · ZUVERLÄSSIG. SAUBER. STARK.</span><span>Website-Entwurf 19 – Technische Korrekturen · Beispielbilder (Bildrechte vor Veröffentlichung prüfen) · Demo · Noch nicht zur Veröffentlichung freigegeben</span></div></div></footer>
+<script>
+const photos=[
+'assets/Trockenbau.png',
+'assets/Bodenleger.png',
+'assets/Hausmeister.png',
+'assets/Reinigung.png',
+'assets/Gartenpfleger.png'
+];
+const services=[
+{slug:'trockenbau',title:'Trockenbau & Innenausbau',desc:'Flexible Raumlösungen, nichttragende Konstruktionen und sorgfältige Oberflächenvorbereitung.',subtitle:'Räume neu denken und sinnvoll gestalten.',text:'Wir unterstützen Sie bei individuellen Innenausbauprojekten. Von nichttragenden Trockenbaukonstruktionen über die Raumaufteilung bis zur Vorbereitung von Oberflächen besprechen wir jeden Schritt persönlich.',items:['Nichttragende Trockenbauwände','Abgehängte Decken','Spachtelarbeiten bis Q4 nach Vereinbarung','Verkleidungen und Innenraumgestaltung']},
+{slug:'bodenverlegung',title:'Bodenverlegung',desc:'Saubere Verlegung passender Bodenbeläge für Wohnräume und gewerbliche Flächen.',subtitle:'Eine gute Basis für jeden Raum.',text:'Ein hochwertiger Boden beeinflusst die Wirkung eines ganzen Raums. Wir unterstützen Sie bei der Auswahl der passenden Verlegeart und übernehmen vereinbarte Bodenlegerarbeiten.',items:['Vinyl- und Designbodenverlegung','Laminatverlegung','Untergrundvorbereitung nach Absprache','Sockelleisten und Abschlussarbeiten']},
+{slug:'hausmeisterservice',title:'Hausmeisterservice',desc:'Laufende Objektbetreuung, Kontrollen und praktische Unterstützung im Gebäude.',subtitle:'Damit Ihre Immobilie gut betreut bleibt.',text:'Ob Wohnanlage oder Gewerbeimmobilie: Wir unterstützen Eigentümer und Hausverwaltungen bei abgestimmten Aufgaben rund um das Objekt.',items:['Regelmäßige Objektkontrollen','Pflege von Gemeinschaftsbereichen','Kleinere zulässige Instandhaltungsarbeiten','Individuell vereinbarte Objektbetreuung']},
+{slug:'reinigung',title:'Reinigung & Pflege',desc:'Gepflegte Treppenhäuser, Gemeinschaftsflächen und Innenbereiche.',subtitle:'Ein gepflegter Eindruck zählt.',text:'Saubere Räume tragen zum Werterhalt und zu einem angenehmen Umfeld bei. Wir stimmen Reinigungsleistungen auf Ihre Anforderungen und Ihr Objekt ab.',items:['Büroreinigung','Baufeinreinigung','Glasreinigung nach Vereinbarung','Außenreinigung geeigneter Flächen','Industriereinigung geeigneter Flächen nach Prüfung','Gebäudereinigung','Treppenhausreinigung','Unterhaltsreinigung','Grundreinigung','Reinigung nach Renovierungsarbeiten']},
+{slug:'gartenpflege',title:'Gartenpflege',desc:'Zuverlässige Pflege von Grünflächen und Außenanlagen nach Vereinbarung.',subtitle:'Außenbereiche in guten Händen.',text:'Wir helfen bei der regelmäßigen Pflege von Außenanlagen, damit Wege, Grünflächen und Gartenbereiche ordentlich wirken.',items:['Rasenpflege','Pflege von Grünflächen','Laub- und saisonale Pflegearbeiten','Individuelle Pflegeintervalle']}
+];
+document.getElementById('service-cards').innerHTML=services.map((s,i)=>`<article class="service"><div class="service-image" style="background-image:url('${photos[i]}')"><span class="service-number">0${i+1} / ${s.title.toUpperCase()}</span></div><div class="service-body"><h3>${s.title}</h3><p>${s.desc}</p><a href="#leistung-${s.slug}">LEISTUNG ENTDECKEN &nbsp; ↗</a></div></article>`).join('');
+function route(){const hash=decodeURIComponent(location.hash.slice(1)||'start');const detail=hash.startsWith('leistung-')?services.find(s=>s.slug===hash.slice(8)):null;const legal=hash==='impressum'||hash==='datenschutz';document.getElementById('home-view').hidden=!!detail||legal;document.getElementById('detail-view').hidden=!detail;document.getElementById('legal-view').hidden=!legal;if(detail){document.getElementById('detail-title').textContent=detail.title;document.getElementById('detail-subtitle').textContent=detail.subtitle;document.getElementById('detail-heading').textContent=detail.subtitle;document.getElementById('detail-text').textContent=detail.text;document.getElementById('detail-list').innerHTML=detail.items.map(x=>`<li>${x}</li>`).join('');window.scrollTo(0,0)}else if(legal){document.getElementById('legal-title').textContent=hash==='impressum'?'Impressum – in Vorbereitung':'Datenschutzerklärung – in Vorbereitung';document.getElementById('legal-text').textContent=hash==='impressum'?'HausKraft Service\nInhaberin: Bukurije Zuka\nWendlinger Straße 61\n72622 Nürtingen\nDeutschland\nTelefon: +49 176 82018734\nE-Mail: hauskraftservice@gmail.com\n\nHinweis: Rechtliche Pflichtangaben vor Veröffentlichung fachlich prüfen und ergänzen.':'Datenschutzerklärung wird vor der öffentlichen Veröffentlichung rechtlich geprüft und ergänzt. Derzeit nur ein interner Entwurf.';window.scrollTo(0,0)}else{requestAnimationFrame(()=>{const target=document.getElementById(hash);if(target)target.scrollIntoView({behavior:'smooth',block:'start'});else window.scrollTo(0,0)})}document.getElementById('nav').classList.remove('open');document.getElementById('menu').setAttribute('aria-expanded','false')}
+window.addEventListener('hashchange',route);route();document.getElementById('menu').addEventListener('click',()=>{let nav=document.getElementById('nav');nav.classList.toggle('open');document.getElementById('menu').setAttribute('aria-expanded',nav.classList.contains('open'))});
+function getContactRequest(){
+ const subject='Projektanfrage HausKraft Service – '+document.getElementById('service').value;
+ const body=[
+  'Name: '+document.getElementById('name').value.trim(),
+  'E-Mail: '+document.getElementById('email').value.trim(),
+  'Telefon: '+document.getElementById('phone').value.trim(),
+  'Leistung: '+document.getElementById('service').value,
+  '', 'Vorhaben:',document.getElementById('message').value.trim()
+ ].join('\\n');
+ return {subject,body};
+}
+document.getElementById('contact-form').addEventListener('submit',e=>{
+ e.preventDefault();
+ const {subject,body}=getContactRequest();
+ const status=document.getElementById('form-status');
+ const link='mailto:hauskraftservice@gmail.com?subject='+encodeURIComponent(subject)+'&body='+encodeURIComponent(body);
+ status.textContent='Die E-Mail-Anfrage wurde vorbereitet. Bitte prüfen und senden Sie die E-Mail in Ihrem E-Mail-Programm. Falls sich kein Programm öffnet, nutzen Sie „Anfrage kopieren“.';
+ window.location.href=link;
+});
+document.getElementById('copy-request').addEventListener('click',async()=>{
+ const form=document.getElementById('contact-form');
+ const status=document.getElementById('form-status');
+ if(!form.reportValidity())return;
+ const {subject,body}=getContactRequest();
+ const content='An: hauskraftservice@gmail.com\\nBetreff: '+subject+'\\n\\n'+body;
+ try{
+  if(!navigator.clipboard?.writeText)throw new Error('Clipboard unavailable');
+  await navigator.clipboard.writeText(content);
+  status.textContent='Anfrage kopiert. Fügen Sie den Text in Ihr E-Mail-Programm ein und senden Sie ihn an hauskraftservice@gmail.com.';
+ }catch(e){
+  const box=document.createElement('textarea');
+  box.value=content;box.setAttribute('aria-label','Anfrage zum Kopieren');
+  box.style.width='100%';box.style.minHeight='160px';
+  const old=document.getElementById('copy-fallback');if(old)old.remove();
+  box.id='copy-fallback';status.after(box);box.focus();box.select();
+  status.textContent='Automatisches Kopieren nicht verfügbar. Bitte den markierten Text manuell kopieren und per E-Mail senden.';
+ }
+});
+
+// Hero: manual arrows and automatic rotation; only the navigation behavior changed.
+{
+ const slides=[...document.querySelectorAll('.hero-slide')];
+ const labels=['Trockenbau & Innenausbau','Bodenverlegung','Reinigung & Pflege','Hausmeisterservice','Gartenpflege','Bodenarbeiten','Innenausbau'];
+ let current=0;
+ const update=(next)=>{
+   if(!slides.length)return;
+   slides[current].classList.remove('active');
+   current=(next+slides.length)%slides.length;
+   slides[current].classList.add('active');
+   const count=document.querySelector('.hero-progress span');
+   const label=document.querySelector('.hero-progress-label');
+   const bar=document.querySelector('.hero-progress-track i');
+   const activity=document.getElementById('hero-activity');
+   if(count)count.textContent=String(current+1).padStart(2,'0')+' / '+String(slides.length).padStart(2,'0');
+   if(activity)activity.textContent=labels[current];
+   if(label)label.textContent=labels[current];
+   if(bar)bar.style.width=((current+1)/slides.length*100)+'%';
+ };
+ const reduced=window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+ let timer=null;
+ const restart=()=>{if(timer)clearInterval(timer);if(!reduced)timer=setInterval(()=>update(current+1),6500)};
+ document.querySelector('.hero-arrow.prev')?.addEventListener('click',()=>{update(current-1);restart()});
+ document.querySelector('.hero-arrow.next')?.addEventListener('click',()=>{update(current+1);restart()});
+ restart();
+}
+
+// Scroll reveal mirrors the calm visual rhythm of the reference without copying it.
+const targets=document.querySelectorAll('.section-heading,.service,.floor-visual,.floor-content,.audience-card,.step,.split-copy,.project-photo');
+if('IntersectionObserver' in window && !window.matchMedia('(prefers-reduced-motion: reduce)').matches){const observer=new IntersectionObserver(entries=>{entries.forEach(e=>{if(e.isIntersecting){e.target.classList.add('visible');observer.unobserve(e.target)}})},{threshold:.08});targets.forEach(el=>{el.classList.add('reveal');observer.observe(el)})}
+</script><script>
+(function(){
+ const nav=document.getElementById('nav');
+ const wraps=[...nav.querySelectorAll('.mega-wrap')];
+ function closeMenus(except){
+  wraps.forEach(w=>{
+   if(w!==except){
+    w.classList.remove('open');
+    w.querySelector('.mega-trigger').setAttribute('aria-expanded','false');
+   }
+  });
+ }
+ wraps.forEach(w=>{
+  const btn=w.querySelector('.mega-trigger');
+  btn.addEventListener('click',()=>{
+   const opening=!w.classList.contains('open');
+   closeMenus(w);
+   w.classList.toggle('open',opening);
+   btn.setAttribute('aria-expanded',String(opening));
+  });
+  w.querySelectorAll('.mega-menu a').forEach(a=>a.addEventListener('click',()=>{
+   closeMenus();
+   w.classList.remove('open');
+   btn.setAttribute('aria-expanded','false');
+  }));
+ });
+ document.addEventListener('click',e=>{if(!nav.contains(e.target))closeMenus()});
+ document.addEventListener('keydown',e=>{if(e.key==='Escape'){closeMenus();document.activeElement?.blur?.()}});
+ window.addEventListener('hashchange',()=>{closeMenus()});
+})();
+</script>
+<!-- Entwurf 21: iPhone viewport-fixed parallax; desktop and assets unchanged. -->
+<style>
+@media (max-width:760px) and (prefers-reduced-motion:no-preference) {
+  .floor-showcase-image {background-image:none!important;}
+  .hk-mobile-fixed-floor {
+    position:fixed;inset:0;z-index:5;pointer-events:none;
+    background-image:url('assets/boden-elegant-original.jpg');
+    background-position:center center;background-size:cover;background-repeat:no-repeat;
+    visibility:hidden;clip-path:inset(100% 0 0 0);
+  }
+}
 </style>
-</head>
-<body>
-<header>
-<div class="brand">HAUS<span>KRAFT</span> SERVICE</div>
-<nav><a href="#leistungen">Leistungen</a><a href="#ueber-uns">Über uns</a><a href="#kontakt">Kontakt</a></nav>
-</header>
-<main>
-<div class="hero"><div class="inner">
-<div class="eyebrow">Nürtingen &amp; Umgebung</div>
-<h1>Ihr Zuhause.<br>Unsere Stärke.</h1>
-<p>Zuverlässige Dienstleistungen rund um Haus, Wohnung und Grundstück – sorgfältig, persönlich und unkompliziert.</p>
-<a class="button" href="#kontakt">Jetzt Kontakt aufnehmen</a>
-</div></div>
-<section class="services" id="leistungen"><div class="wrap">
-<div class="eyebrow">Was wir für Sie tun</div><h2>Unsere Leistungen</h2>
-<p class="intro">Ob Renovierung, Pflege oder laufende Betreuung: Wir unterstützen Sie bei Ihrem Projekt.</p>
-<div class="grid">
-<article class="card"><h3>Trockenbau</h3><p>Innenausbau, nichttragende Trennwände und Deckenverkleidungen.</p></article>
-<article class="card"><h3>Bodenverlegung</h3><p>Fachgerechte Verlegung geeigneter Bodenbeläge und Sockelleisten.</p></article>
-<article class="card"><h3>Hausmeisterservice</h3><p>Praktische Betreuung, Pflege und kleinere Arbeiten rund um Ihre Immobilie.</p></article>
-<article class="card"><h3>Reinigung &amp; Pflege</h3><p>Saubere und gepflegte Wohn- und Gemeinschaftsbereiche.</p></article>
-<article class="card"><h3>Gartenpflege</h3><p>Regelmäßige Pflege und Ordnung Ihrer Außenanlagen.</p></article>
-<article class="card"><h3>Ausbesserungsarbeiten</h3><p>Kleinere Instandsetzungen im Innenbereich nach Absprache.</p></article>
-</div></div></section>
-<section class="about" id="ueber-uns"><div class="wrap">
-<div class="eyebrow">HausKraft Service</div><h2>Persönlich. Sorgfältig. Zuverlässig.</h2>
-<p class="intro">Wir legen Wert auf klare Absprachen, saubere Ausführung und einen respektvollen Umgang mit Ihrem Zuhause. Gerne besprechen wir Ihr Vorhaben individuell.</p>
-</div></section>
-<section class="contact" id="kontakt"><div class="wrap">
-<div class="eyebrow">Kontakt</div><h2>Sie planen ein Projekt?</h2>
-<p>HausKraft Service · Nürtingen und Umgebung</p>
-<p>Schreiben Sie uns und schildern Sie kurz Ihr Vorhaben. Wir freuen uns auf Ihre Anfrage.</p>
-<!-- E-Mail-Adresse ergänzen, sobald sie bestätigt wurde. -->
-</div></section>
-</main>
-<footer>© 2026 HausKraft Service · Nürtingen<br>Impressum und Datenschutzerklärung vor öffentlicher Nutzung ergänzen.</footer>
-</body>
-</html>
+<script>
+(function(){
+ const section=document.querySelector('.floor-showcase-image');
+ if(!section)return;
+ const mobile=window.matchMedia('(max-width:760px) and (prefers-reduced-motion:no-preference)');
+ const layer=document.createElement('div');
+ layer.className='hk-mobile-fixed-floor';
+ layer.setAttribute('aria-hidden','true');
+ document.body.appendChild(layer);
+ let scheduled=false;
+ function update(){
+  scheduled=false;
+  if(!mobile.matches){layer.style.visibility='hidden';return;}
+  const rect=section.getBoundingClientRect();
+  const vh=window.innerHeight;
+  if(rect.bottom<=0||rect.top>=vh){layer.style.visibility='hidden';return;}
+  const top=Math.max(0,rect.top);
+  const bottom=Math.max(0,vh-rect.bottom);
+  layer.style.clipPath='inset('+top.toFixed(1)+'px 0 '+bottom.toFixed(1)+'px 0)';
+  layer.style.visibility='visible';
+ }
+ function request(){if(!scheduled){scheduled=true;requestAnimationFrame(update);}}
+ window.addEventListener('scroll',request,{passive:true});
+ window.addEventListener('resize',request,{passive:true});
+ window.addEventListener('orientationchange',request,{passive:true});
+ if(mobile.addEventListener)mobile.addEventListener('change',request);
+ request();
+})();
+</script>
+</body></html>
