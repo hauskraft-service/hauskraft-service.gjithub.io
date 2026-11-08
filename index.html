@@ -1,25 +1,70 @@
 <!DOCTYPE html>
 <html lang="de">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HausKraft Service</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="HausKraft Service – Trockenbau, Bodenverlegung, Hausmeisterservice, Reinigung und Gartenpflege in Nürtingen und Umgebung.">
+<title>HausKraft Service | Rund ums Haus</title>
+<style>
+:root{--dark:#13232b;--gold:#c7a56b;--light:#f6f7f6;--text:#26343b}
+*{box-sizing:border-box}html{scroll-behavior:smooth}
+body{margin:0;font-family:Arial,Helvetica,sans-serif;color:var(--text);line-height:1.65;background:white}
+header{background:var(--dark);color:white;padding:18px 7%;display:flex;align-items:center;justify-content:space-between;gap:20px;flex-wrap:wrap}
+.brand{font-size:1.35rem;font-weight:800;letter-spacing:.04em}.brand span{color:var(--gold)}
+nav a{color:white;text-decoration:none;margin-left:20px;font-weight:600}nav a:hover{color:var(--gold)}
+.hero{background:linear-gradient(125deg,#13232b,#304751);color:white;padding:110px 7% 120px}
+.hero .inner{max-width:900px;margin:auto;text-align:center}
+.eyebrow{text-transform:uppercase;letter-spacing:.22em;color:var(--gold);font-size:.8rem;font-weight:700}
+h1{font-size:clamp(2.5rem,6vw,4.7rem);line-height:1.12;margin:20px 0}
+.hero p{font-size:1.2rem;color:#e0e8ea;max-width:650px;margin:0 auto 32px}
+.button{display:inline-block;background:var(--gold);color:#17252c;text-decoration:none;font-weight:700;padding:13px 27px;border-radius:5px}
+section{padding:76px 7%}.wrap{max-width:1100px;margin:auto}
+h2{font-size:clamp(1.9rem,4vw,2.6rem);line-height:1.2;margin:0 0 15px}
+.intro{max-width:680px;color:#58656b;margin-bottom:35px}
+.services{background:var(--light)}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:22px}
+.card{background:white;border:1px solid #e6e9e8;border-radius:9px;padding:27px;box-shadow:0 8px 24px #15242b09}
+.card:before{content:"";display:block;width:36px;height:4px;background:var(--gold);margin-bottom:20px}
+.card h3{margin:0 0 8px;color:var(--dark)}.card p{margin:0;color:#59666b}
+.about{background:white}.contact{background:var(--dark);color:white}.contact p{color:#d5dfe2}
+.contact .button{margin-top:12px}footer{background:#0c171c;color:#c2cbd0;text-align:center;padding:24px 7%;font-size:.9rem}
+@media(max-width:650px){header{justify-content:center;text-align:center}nav a{margin:0 8px;font-size:.9rem}.hero{padding:75px 7%}section{padding:55px 7%}}
+</style>
 </head>
 <body>
-
-    <h1>Willkommen bei HausKraft Service</h1>
-
-    <p>Ihr zuverlässiger Partner rund ums Haus.</p>
-
-    <h2>Unsere Leistungen</h2>
-
-    <ul>
-        <li>Trockenbau</li>
-        <li>Bodenverlegung</li>
-        <li>Hausmeisterservice</li>
-        <li>Reinigung und Pflege</li>
-        <li>Gartenpflege</li>
-    </ul>
-
+<header>
+<div class="brand">HAUS<span>KRAFT</span> SERVICE</div>
+<nav><a href="#leistungen">Leistungen</a><a href="#ueber-uns">Über uns</a><a href="#kontakt">Kontakt</a></nav>
+</header>
+<main>
+<div class="hero"><div class="inner">
+<div class="eyebrow">Nürtingen &amp; Umgebung</div>
+<h1>Ihr Zuhause.<br>Unsere Stärke.</h1>
+<p>Zuverlässige Dienstleistungen rund um Haus, Wohnung und Grundstück – sorgfältig, persönlich und unkompliziert.</p>
+<a class="button" href="#kontakt">Jetzt Kontakt aufnehmen</a>
+</div></div>
+<section class="services" id="leistungen"><div class="wrap">
+<div class="eyebrow">Was wir für Sie tun</div><h2>Unsere Leistungen</h2>
+<p class="intro">Ob Renovierung, Pflege oder laufende Betreuung: Wir unterstützen Sie bei Ihrem Projekt.</p>
+<div class="grid">
+<article class="card"><h3>Trockenbau</h3><p>Innenausbau, nichttragende Trennwände und Deckenverkleidungen.</p></article>
+<article class="card"><h3>Bodenverlegung</h3><p>Fachgerechte Verlegung geeigneter Bodenbeläge und Sockelleisten.</p></article>
+<article class="card"><h3>Hausmeisterservice</h3><p>Praktische Betreuung, Pflege und kleinere Arbeiten rund um Ihre Immobilie.</p></article>
+<article class="card"><h3>Reinigung &amp; Pflege</h3><p>Saubere und gepflegte Wohn- und Gemeinschaftsbereiche.</p></article>
+<article class="card"><h3>Gartenpflege</h3><p>Regelmäßige Pflege und Ordnung Ihrer Außenanlagen.</p></article>
+<article class="card"><h3>Ausbesserungsarbeiten</h3><p>Kleinere Instandsetzungen im Innenbereich nach Absprache.</p></article>
+</div></div></section>
+<section class="about" id="ueber-uns"><div class="wrap">
+<div class="eyebrow">HausKraft Service</div><h2>Persönlich. Sorgfältig. Zuverlässig.</h2>
+<p class="intro">Wir legen Wert auf klare Absprachen, saubere Ausführung und einen respektvollen Umgang mit Ihrem Zuhause. Gerne besprechen wir Ihr Vorhaben individuell.</p>
+</div></section>
+<section class="contact" id="kontakt"><div class="wrap">
+<div class="eyebrow">Kontakt</div><h2>Sie planen ein Projekt?</h2>
+<p>HausKraft Service · Nürtingen und Umgebung</p>
+<p>Schreiben Sie uns und schildern Sie kurz Ihr Vorhaben. Wir freuen uns auf Ihre Anfrage.</p>
+<!-- E-Mail-Adresse ergänzen, sobald sie bestätigt wurde. -->
+</div></section>
+</main>
+<footer>© 2026 HausKraft Service · Nürtingen<br>Impressum und Datenschutzerklärung vor öffentlicher Nutzung ergänzen.</footer>
 </body>
 </html>
